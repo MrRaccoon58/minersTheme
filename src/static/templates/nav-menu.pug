@@ -1,0 +1,63 @@
+-// все меню в переменной. если пункт меню имеет подпункты, у него должен быть артибут sub который является массивом объектов:
+//- - 
+//-     var production = [
+//-         {
+//-             name    : 'Name1',
+//-             link    : 'link1'
+//-         },  
+//-         {
+//-             name    : 'Name2',
+//-             link    : 'link2',
+//-             sub     : [
+//-                         {
+//-                             name: 'sub1',
+//-                             link: 'sublink1'             
+//-                         }
+//-             ]
+//-         },
+//-     ]
+
+-
+    var production = [
+        {
+            name    : 'Name1',
+            link    : 'link1'
+        },
+        {
+            name    : 'Name2',
+            link    : 'link2',
+        },
+        {
+            name    : 'Name3',
+            link    : 'link3',
+            sub     : [
+                        {
+                            name    :   'subName1',
+                            link    :   'subLink1'
+                        },
+                        {
+                            name    :   'subName2',
+                            link    :   'subLink2'
+                        },
+                        {
+                            name    :   'subName3',
+                            link    :   'subLink3',
+                            sub     : [
+                                {
+                                    name
+                                }
+                            ]
+                        },
+                        ]
+        }
+    ]
+
+ul.production__list
+    each item in production 
+        li.production__item
+            a(href=`/production${item.link}`)= item.name
+            if (item.sub)
+                ul.production__list.production__sublist
+                    each sub in item.sub
+                        li.production__item
+                         a(href=`/production/${item.link}/${sub.link}`)= sub.name

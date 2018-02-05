@@ -1,0 +1,22 @@
+.button {
+    padding: rem(10px) rem(40px);
+    cursor: pointer;
+	font-family: Helvetica, Arial, sans;
+	border: none;
+	border-radius: 3px;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: white;
+    background-color: $green;
+    transition: .2s;
+    box-shadow: 0 rem(5px) 0 0 darken($green, 50%);
+    background-color: $green;
+        &:hover {
+            background-color: lighten($green, 10%);
+        }
+        &:active {
+            box-shadow: 0 rem(0px) 0 0 darken($green, 20%);
+            transform: translateY(rem(5px));
+        }
+}

@@ -1,0 +1,39 @@
+//перевод пикселей в rem
+@function rem($px) {
+    @return $px / 16px+0rem;
+}
+
+
+//кружочки
+@mixin circle($size, $color) {
+    content: '';
+    vertical-align: bottom;
+    display: inline-block;
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    background-color: $color;
+}
+
+//адаптив
+@mixin tablets {
+    @media screen and (max-width: $tablets) {
+        @content;
+    }
+}
+
+@mixin phones {
+    @media screen and (max-width: $phones) {
+        @content;
+    }
+}
+@mixin pc {
+    @media screen and (max-width: $pc) {
+        @content;
+    }
+}
+@mixin sphones {
+    @media screen and (max-width: $sphones) {
+        @content;
+    }
+}

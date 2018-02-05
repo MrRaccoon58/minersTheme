@@ -1,0 +1,16 @@
+.elementor-widget-wrap > .elementor_section_centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#belt-length-features .elementor-row{
+    @include tablets {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        & .elementor-column {
+            width: auto;
+        }
+    }
+}

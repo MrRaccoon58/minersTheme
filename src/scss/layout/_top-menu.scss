@@ -1,0 +1,46 @@
+// #mega-menu-wrap-max_mega_menu_1 {
+//     flex: 1;
+// }
+// #mega-menu-max_mega_menu_1 {
+//     display: flex;
+//     justify-content: space-between;
+// }
+// .mega-menu-item ul li a {
+//     color: #212121;
+// }
+// .top-menu {
+//     display: flex;
+//     margin: 0;
+//     padding: 0;
+//     @include phones {
+//         flex-direction: column;
+//         }
+// }
+
+// .menu-top-menu-container {
+//     width: 100%;
+// }
+
+// .menu-item {
+//     flex: 1;
+//     display: flex;
+//     list-style: none;
+//     & a {
+//         width: 100%;
+//         text-align: center;
+//         color: $dark;
+//         font-weight: 600;
+//         padding: rem(10px) 0;
+//         background-color: $silver;
+//         white-space: nowrap;
+//         transition: .3s;
+//         &:hover {
+//             color: lighten($dark, 10);
+//             background-color: lighten($gold, 30)
+//         }
+//         @include phones {
+//             padding: rem(3px) 0;
+//         }
+//     }
+// }
+

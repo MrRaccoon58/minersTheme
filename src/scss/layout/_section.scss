@@ -1,0 +1,20 @@
+.section {
+    display: flex;
+    flex: 1 0 auto;
+}
+.section__container {
+    padding: rem(10px) rem(20px);
+    display: flex;
+    flex-direction: column;
+
+}
+.section__category {
+    padding: rem(10px) 0;
+}
+
+.section__content {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: stretch;
+}

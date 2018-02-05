@@ -1,0 +1,96 @@
+<div class="form-wrapp">
+        <div class="form">
+            <div class="form__row form__row-1">
+                <div class="form__col form__col-1-1">
+                    <label for="form-name">
+                        <div class="form__header">фио <span class="required-span">*</span></div>
+                        [text* form-name id:form-name class:form__input size:20]
+                    </label>
+                </div>
+                <div class="form__col form__col-1-2">
+                    <label for="form-firm">
+                        <div class="form__subheader">Название организации <span class="required-span">*</span></div>
+                        [text* form-firm id:form-firm class:form__input size:20]
+                    </label>
+                </div>
+            </div>
+            <div class="form__row form__row-2">
+                <div class="form__col form__col-2-1">
+                    <label for="form-firmTel">
+                        <div class="form__subheader">Телефон организации <span class="required-span">*</span></div>
+                        [tel* form-firmTel id:form-firmTel class:form__input size:20]
+                    </label>
+                </div>
+                <div class="form__col form__col-2-2">
+                    <label for="form-job">
+                        <div class="form__subheader">Ваша должность <span class="required-span">*</span></div>
+                        [text* form-job id:form-job class:form__input size:20]
+                    </label>
+                </div>
+            </div>
+            <div class="form__row form__row-3 form__row-3-wrapped">
+                <div class="form__header">Адрес организации:</div>
+                <div class="form__col-wrap">
+                    <div class="form__col form__col-3-1">
+                        <label for="form-city">
+                            <div class="form__subheader">Город <span class="required-span">*</span></div>
+                            [text* form-city id:form-city class:form__input size:15]
+                        </label>
+                    </div>
+                    <div class="form__col form__col-3-2">
+                        <label for="form-postcode">
+                            <div class="form__subheader">Индекс <span class="required-span">*</span></div>
+                            [tel* form-postcode id:form-postcode class:form__input size:20]
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form__row form__row-4">
+                <div class="form__col form__col-4-1">
+                    <label for="form-st">
+                        <div class="form__subheader">Улица <span class="required-span">*</span></div>
+                        [text* form-st id:form-st class:form__input size:20]
+                    </label>
+                </div>
+                <div class="form__col form__col-4-2">
+                    <label for="form-house">
+                        <div class="form__subheader">Дом</div>
+                        [text form-house id:form-house class:form__input size:5]
+                    </label>
+                </div>
+                <div class="form__col form__col-4-3">
+                    <label for="form-housing">
+                        <div class="form__subheader">Стр</div>
+                        [text form-housing id:form-housing class:form__input size:5]
+                    </label>
+                </div>
+                <div class="form__col form__col-4-4">
+                    <label for="form-apt">
+                        <div class="form__subheader">Офис</div>
+                        [text form-apt id:form-apt class:form__input size:5]
+                    </label>
+                </div>
+            </div>
+            <div class="form__row form__row-5">
+                <div class="form__col form__col-5-1">
+                    <label for="form-order">
+                        <div class="form-header">Комментарий</div>
+                        [textarea form-order id:form-order class:form__input 20x5]
+                    </label>
+                </div>
+            </div>
+            <div class="form__row form__row-6">
+                <div class="form__col form__col-6-1">
+                    <label for="form-mail">
+                        <div class="form-header"> Email <span class="required-span">*</span></div>
+                        [email* form-mail id:form-mail class:form__input size:20]
+                    </label>                
+                </div>
+            </div>
+            <div class="form__row form__row-7">
+                <div class="form__col form__col_centered form__col-6-1 form__col-button">
+                    [submit id:form-submit class:button class:button__form "Заказать"]
+                </div>
+            </div>
+        </div>
+    </div>

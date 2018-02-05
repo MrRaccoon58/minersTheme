@@ -1,0 +1,10 @@
+.about {
+    display: flex;
+    flex-flow: column;
+    &__text {
+        margin-bottom: rem(20px);
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

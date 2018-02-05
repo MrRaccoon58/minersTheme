@@ -1,0 +1,17 @@
+.social {
+    display: flex;
+    align-items: flex-end;
+    margin-right: rem(15px);
+    &_footer {
+        margin: rem(10px) 0 0 0;
+    }
+}
+.social__item {
+    margin-right: rem(15px);
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.social__link {
+    font-size: rem(20px);   
+}

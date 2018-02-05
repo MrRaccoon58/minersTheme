@@ -1,0 +1,12 @@
+.wpforms-container {
+    background-color: crimson!important;
+}
+
+.wpforms-field-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.wpforms-field {
+    max-width: 50%;
+}
