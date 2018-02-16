@@ -8,8 +8,11 @@
 a, a:visited, a:focus, a:active {
     text-decoration: none;
     outline: none;
-    color: $white;
+    color: $link;
     transition: color .3s;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 html,

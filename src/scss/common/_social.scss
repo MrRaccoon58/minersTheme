@@ -13,5 +13,9 @@
     }
 }
 .social__link {
-    font-size: rem(20px);   
+    font-size: rem(20px);
+    color: $white!important;
+    &:hover {
+        color: darken($white, 25%)!important;
+    } 
 }

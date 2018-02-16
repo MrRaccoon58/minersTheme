@@ -159,8 +159,7 @@
 	background-size: 65%;
 	}
 }
-
-.wpcf7-checkbox .wpcf7-list-item-label:before {
+.wpcf7-checkbox .wpcf7-list-item-label:before, span.wpcf7-list-item-label::before {
 	cursor: pointer;
 	content: '';
 	min-width: rem(30px);
@@ -173,7 +172,7 @@
 	border-radius: rem(3px);
 }
 
-.wpcf7-checkbox label > input:checked { //отметка чекбокса
+.wpcf7-list-item label > input:checked { //отметка чекбокса
 	& + .wpcf7-list-item-label:before{
 	transition: .3s;
 	background-size: 95%;
