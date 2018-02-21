@@ -14,8 +14,8 @@
 }
 .social__link {
     font-size: rem(20px);
-    color: $white!important;
+    color: $dark!important;
     &:hover {
-        color: darken($white, 25%)!important;
+        color: lighten($dark, 25%)!important;
     } 
 }

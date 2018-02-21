@@ -8,15 +8,20 @@
 	text-transform: uppercase;
 	font-weight: 600;
 	color: white;
-    background-color: $green;
+    background-color: $gold;
     transition: .2s;
-    box-shadow: 0 rem(5px) 0 0 darken($green, 50%);
-    background-color: $green;
+    box-shadow: 0 rem(5px) 0 0 darken($gold, 25%);
+    background-color: $gold;
         &:hover {
-            background-color: lighten($green, 10%);
+            background-color: lighten($gold, 10%);
         }
         &:active {
-            box-shadow: 0 rem(0px) 0 0 darken($green, 20%);
+            box-shadow: 0 rem(0px) 0 0 darken($gold, 20%);
             transform: translateY(rem(5px));
+        }
+        &:disabled{
+            color: darken($white, 20%);
+            background-color: lighten($gold, 30%);
+            box-shadow: 0 rem(5px) 0 0 lighten($gold, 10%);
         }
 }

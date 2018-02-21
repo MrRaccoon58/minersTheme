@@ -6,7 +6,10 @@
     padding: rem(10px) rem(20px);
     display: flex;
     flex-direction: column;
-
+    // border-right: rem(1px) solid $dark;
+    // border-left: rem(1px) solid $dark;
+    box-shadow: 0 0 rem(30px) rgba($dark, 0.5);
+    background-color: $white;
 }
 .section__category {
     padding: rem(10px) 0;

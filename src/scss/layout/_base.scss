@@ -14,22 +14,35 @@ a, a:visited, a:focus, a:active {
         text-decoration: underline;
     }
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    background-color: none!important;
+    color: $dark!important;
+}
+
 
 html,
 body {
     min-height: 100vh;
-    background-color: darken($dark,30);
-    color: $white;
+    background-color: $silver;
+    color: $dark;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     line-height: 1.42;
 }
 ::selection {
-    background-color: $silver;
+    background-color: $dark;
 }
 body {
     font-size: rem(16px);
     font-family: Helvetica, Arial, sans-serif;
+    background-image: url('images/bgTexture.png');
 }
 
 h1,
@@ -40,20 +53,23 @@ h5,
 h6 {
     padding: 0;
     margin: 0;
-    font-weight: normal;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    color: $gold;
 }
 
 p {
     margin: 0;
     padding: 0;
-    color: $white;
+    color: $dark!important;
 }
 
 ul {
     margin: 0;
     padding: 0;
     & li {
-        list-style-type: none
+        color: $dark;
+        // list-style-type: none
     }
 }
 
@@ -100,3 +116,4 @@ button {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+

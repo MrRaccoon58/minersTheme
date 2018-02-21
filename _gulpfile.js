@@ -10,7 +10,7 @@ const path =  {
 		build	: './build/',           // paths.build
 		src		: './src/',            // paths.src
 		styles	: {
-			src			:   'src/scss/**/*.scss',
+			src			:   ['src/scss/**/*.scss','src/scss/**/*.sass'],
 			main		:   'src/scss/style.scss',
 			singlePage	:   'src/scss/single-page.scss',
 			plugins		: 	'src/scss/plugins/',

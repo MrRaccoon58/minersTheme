@@ -18,10 +18,11 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="container header__container">
-				<div class="header__data" style="background-image:url('<?php bloginfo('template_url'); ?>/images/header.jpg')">
+				<div class="header__data">
+				<!-- <div class="header__data" style="background-image:url('<?php bloginfo('template_url'); ?>/images/header.jpg')"> -->
 					<div class="header__text">
-						<div class="header__title">miner's moss</div>
-						<div class="header__subtite">Оборудование и РТИ для золотодобычи</div>
+						<div class="header__title">Дражные ковры</div>
+						<!-- <div class="header__subtite">Оборудование и РТИ для золотодобычи</div> -->
 					</div>
 					<div class="header__contacts">
 						<ul class="social">
@@ -48,7 +49,7 @@
 					</div>
 					<div class="header__logo">
 						<a href="<?php echo home_url();  ?>" class="home__link">
-							<img class="header__img" src="<?php bloginfo('template_url'); ?>/images/logo-white.png" alt="Логотип производственной компании где можно купить РТИ СК-Полимеры">
+							<img class="header__img" src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Логотип производственной компании где можно купить Дражные коврики СК-Полимеры">
 						</a>
 					</div>
 
