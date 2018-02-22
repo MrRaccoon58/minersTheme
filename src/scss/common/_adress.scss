@@ -1,4 +1,7 @@
 .adress {
     margin-bottom: rem(10px);
+    & p {
+        color: $white!important;
+    }
 }
 

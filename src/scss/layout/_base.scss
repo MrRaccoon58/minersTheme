@@ -14,6 +14,12 @@ a, a:visited, a:focus, a:active {
         text-decoration: underline;
     }
 }
+a[href*='tel:'], .header__title a {
+    color: $dark;
+    &:hover {
+        text-decoration: none;
+    }
+}
 h1,
 h2,
 h3,
@@ -21,7 +27,8 @@ h4,
 h5,
 h6,
 p,
-span {
+span:not(.ab-label),
+span:not(.ab-item) {
     background-color: none!important;
     color: $dark!important;
 }
@@ -116,4 +123,3 @@ button {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-

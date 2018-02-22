@@ -20,11 +20,18 @@
 			<div class="container header__container">
 				<div class="header__data">
 				<!-- <div class="header__data" style="background-image:url('<?php bloginfo('template_url'); ?>/images/header.jpg')"> -->
-					<div class="header__text">
-						<div class="header__title">Дражные ковры</div>
-						<!-- <div class="header__subtite">Оборудование и РТИ для золотодобычи</div> -->
+						
+
+					<div class="header__logo">
+						<a href="<?php echo home_url();  ?>" class="home__link">
+							<img class="header__img" src="<?php bloginfo('template_url'); ?>/images/logoSk_gold.png" alt="Логотип производственной компании где можно купить Дражные коврики СК-Полимеры">
+						</a>
 					</div>
-					<div class="header__contacts">
+					<div class="header__text">
+							<div class="header__title"><a href="/">Дражные ковры</a></div>
+							<!-- <div class="header__subtite">Оборудование и РТИ для золотодобычи</div> -->
+						</div>
+						<div class="header__contacts">
 						<ul class="social">
 							<li class="social__item social__item--vk">
 								<a href="https://vk.com/skpolimer" class="social__link">
@@ -43,14 +50,9 @@
 							</li>
 						</ul>
 						<ul class="phones">
-							<li class="phones__item">+7(391)259-09-48</li>
-							<li class="phones__item">+7(391)229-82-45</li>
+							<li class="phones__item"><a href="tel:+7(391)259-09-48">+7(391)259-09-48</a></li>
+							<li class="phones__item"><a href="tel:+7(391)229-82-45">+7(391)229-82-45</a></li>
 						</ul>
-					</div>
-					<div class="header__logo">
-						<a href="<?php echo home_url();  ?>" class="home__link">
-							<img class="header__img" src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Логотип производственной компании где можно купить Дражные коврики СК-Полимеры">
-						</a>
 					</div>
 
 

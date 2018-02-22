@@ -1,5 +1,5 @@
 .phones {
-
+    order: -1;
     &_line {
         display: flex;
         flex-wrap: wrap;
@@ -9,10 +9,3 @@
     }
 }
 
-.phones__item {
-    
-    margin-right: rem(10px);
-    &:last-child {
-        margin-right: 0;
-    }
-}

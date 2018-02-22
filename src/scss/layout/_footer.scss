@@ -3,7 +3,6 @@
     flex: 0 0 auto;
     min-height: 50px;
     background-color: $dark;
-    color: $white;
     padding: rem(10px) rem(10px) rem(10px) rem(10px);
     background-image: url('images/bg.png');
     overflow: hidden;
@@ -14,20 +13,31 @@
     }
     & li {
         list-style: none;
+        & a {
+            color: $white;
+        }
+    }
+    & .phones__item {
+        margin-right: rem(10px);
+        &:last-child {
+            margin-right: 0;
+        }
     }
 }
+
 .footer__col {
     display: flex;
     flex-direction: column;
     flex: 1;
     padding: 0 rem(5px);
+    color: $white!important;
     @include tablets {
-      margin-bottom: rem(10px);
-      align-items: center;
-      justify-content: center;
-      &:last-child {
-          margin-bottom: 0;
-      }
+        margin-bottom: rem(10px);
+        align-items: center;
+        justify-content: center;
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 }
 

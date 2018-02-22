@@ -3,14 +3,14 @@
     <div class="col footer__col footer__col--left">
         <div class="adress">
             <p>
-                <a href="https://sibkraspolimer.ru/" class="adress__link">ООО "СК-Полимеры"</a> 660049 г.Красноярск, а/я № 25496</p>
+                <a href="https://sibkraspolimer.ru/" class="adress__link">ИП Еремеев Р.Н.</a> 660025 г.Красноярск, а/я № 14188</p>
         </div>
         <ul class="phones phones_line">
-            <li class="phones__item">+7(391)259-08-38</li>
-            <li class="phones__item">+7(391)259-08-26</li>
-            <li class="phones__item">+7(391)229-85-29</li>
-            <li class="phones__item">+7(391)229-82-45</li>
-            <li class="phones__item">+7(391)255-50-49</li>
+            <li class="phones__item"><a href="tel:+7(391)259-08-38">+7(391)259-08-38</a></li>
+            <li class="phones__item"><a href="tel:+7(391)259-08-26">+7(391)259-08-26</a></li>
+            <li class="phones__item"><a href="tel:+7(391)229-85-29">+7(391)229-85-29</a></li>
+            <li class="phones__item"><a href="tel:+7(391)229-82-45">+7(391)229-82-45</a></li>
+            <li class="phones__item"><a href="tel:+7(391)255-50-49">+7(391)255-50-49</a></li>
         </ul>
     </div>
     <div class="col footer__col footer__col--right">
