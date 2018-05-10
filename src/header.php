@@ -2,6 +2,14 @@
 <html lang='ru'>
 
 <head>
+	 <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118275977-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-118275977-1');
+	</script>
 	<meta http-equiv="Content-type" content="text/html; charset=<?php bloginfo('charset'); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,8 +28,6 @@
 			<div class="container header__container">
 				<div class="header__data">
 				<!-- <div class="header__data" style="background-image:url('<?php bloginfo('template_url'); ?>/images/header.jpg')"> -->
-						
-
 					<div class="header__logo">
 						<a href="<?php echo home_url();  ?>" class="home__link">
 							<img class="header__img" src="<?php bloginfo('template_url'); ?>/images/logoSk_gold.png" alt="Логотип производственной компании где можно купить Дражные коврики СК-Полимеры">
