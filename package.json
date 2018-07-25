@@ -40,6 +40,7 @@
     "gulp-uglify": "^3.0.1",
     "gulp-util": "^3.0.8",
     "gulp-watermark": "0.0.1",
+    "hoek": "^5.0.3",
     "patch": "0.0.1",
     "pug": "^2.0.3",
     "vinyl-ftp": "^0.6.1"
@@ -47,7 +48,6 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "fresh": "^0.5.2",
-    "hoek": "^4.2.1",
     "node-mime": "^1.0.0",
     "normalize.css": "^7.0.0"
   }
